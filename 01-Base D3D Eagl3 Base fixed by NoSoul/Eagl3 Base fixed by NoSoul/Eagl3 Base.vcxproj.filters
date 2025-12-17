@@ -1,0 +1,74 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="xMenu">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hpp;hxx;hm;inl;inc;xsd</Extensions>
+    </Filter>
+    <Filter Include="xMenu\Font">
+      <UniqueIdentifier>{dce22442-cdb5-4b52-bf32-b405b85a40ed}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="xMenu\Color">
+      <UniqueIdentifier>{e4f31682-14a5-42be-9818-65e12debcdb3}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="xBase">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav</Extensions>
+    </Filter>
+    <Filter Include="xBase\Detour">
+      <UniqueIdentifier>{5083ea61-49c4-4c33-b192-6fb72b0da17e}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="xBase\Hack">
+      <UniqueIdentifier>{6900ed54-f1f6-4e06-8bc2-df09dfb135ad}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="xDraw.h">
+      <Filter>xMenu</Filter>
+    </ClInclude>
+    <ClInclude Include="xMenu.h">
+      <Filter>xMenu</Filter>
+    </ClInclude>
+    <ClInclude Include="xFont.h">
+      <Filter>xMenu\Font</Filter>
+    </ClInclude>
+    <ClInclude Include="xColor.h">
+      <Filter>xMenu\Color</Filter>
+    </ClInclude>
+    <ClInclude Include="xBase.h">
+      <Filter>xBase</Filter>
+    </ClInclude>
+    <ClInclude Include="xDetour.h">
+      <Filter>xBase\Detour</Filter>
+    </ClInclude>
+    <ClInclude Include="xAddy.h">
+      <Filter>xBase\Hack</Filter>
+    </ClInclude>
+    <ClInclude Include="xHack.h">
+      <Filter>xBase\Hack</Filter>
+    </ClInclude>
+    <ClInclude Include="xInt.h">
+      <Filter>xBase\Hack</Filter>
+    </ClInclude>
+    <ClInclude Include="VTable.h">
+      <Filter>xBase\Hack</Filter>
+    </ClInclude>
+    <ClInclude Include="Structs.h">
+      <Filter>xBase\Hack</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="xMenu.cpp">
+      <Filter>xMenu</Filter>
+    </ClCompile>
+    <ClCompile Include="xFont.cpp">
+      <Filter>xMenu\Font</Filter>
+    </ClCompile>
+    <ClCompile Include="xMain.cpp">
+      <Filter>xBase</Filter>
+    </ClCompile>
+    <ClCompile Include="VTable.cpp">
+      <Filter>xBase\Hack</Filter>
+    </ClCompile>
+  </ItemGroup>
+</Project>

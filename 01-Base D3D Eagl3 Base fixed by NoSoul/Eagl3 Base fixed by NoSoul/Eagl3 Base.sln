@@ -1,0 +1,20 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 11.00
+# Visual C++ Express 2010
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "Eagl3 Base", "Eagl3 Base.vcxproj", "{6CBBFF73-A039-402E-918A-0E485060EDC2}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Win32 = Debug|Win32
+		Release|Win32 = Release|Win32
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{6CBBFF73-A039-402E-918A-0E485060EDC2}.Debug|Win32.ActiveCfg = Debug|Win32
+		{6CBBFF73-A039-402E-918A-0E485060EDC2}.Debug|Win32.Build.0 = Debug|Win32
+		{6CBBFF73-A039-402E-918A-0E485060EDC2}.Release|Win32.ActiveCfg = Release|Win32
+		{6CBBFF73-A039-402E-918A-0E485060EDC2}.Release|Win32.Build.0 = Release|Win32
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal
